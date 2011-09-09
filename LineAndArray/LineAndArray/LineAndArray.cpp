@@ -60,18 +60,17 @@ int _tmain(int argc, _TCHAR* argv[])
 		{
 			system("Cls");
 			Testing(Arr, Arr1, Arr2, First, Second, tmpArr, Size);
-			std::cout << "\t Press Esc to EXIT, or  ANY key to continue...\n";
+			std::cout << "\n\nUsing struct DOT:\n-create 2 dots (using all constructors of this struct)\n-init class line this dots\n\n";
+			Dot A, B(3, 4);
+			Line X(A, B);
+			X.Show("X");
+			std::cout << "Length of Line X is " << X.GetLength() 
+				<< "\n\n\t Press Esc to EXIT, or  ANY key to continue...\n";
 			Key = _getch();
 			Arr.SetLastIdx(0);
 			Arr1.SetLastIdx(0);
 			Arr2.SetLastIdx(0);
 		}while(Key != 27);
-		std::cout << "\n\nUsing struct DOT:\n-create 2 dots (using all constructors of this struct)\n-init class line this dots\n\n";
-		Dot A, B(3, 4);
-		Line X(A, B);
-		X.Show("X");
-		std::cout << X.GetLength() << std::endl;
-		system("Pause");
 	}
 	
 	delete [] tmpArr;
