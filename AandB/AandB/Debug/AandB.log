@@ -1,19 +1,18 @@
-﻿Build started 08.09.2011 22:21:31.
-     1>Project "D:\Documents\c++\ProfCurse\HW1.1\AandB\AandB\AandB.vcxproj" on node 2 (build target(s)).
+﻿Build started 09.09.2011 20:19:24.
+     1>Project "D:\C++\C---proff-course\AandB\AandB\AandB.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\AandB.unsuccessfulbuild".
+         Creating "Debug\AandB.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\AandB.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt A.cpp AandB.cpp
-         A.cpp
-         Создание кода...
-         Компиляция...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\AandB.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AandB.cpp B.cpp
          AandB.cpp
          Создание кода...
+         Пропуск... (изменения не обнаружены)
+         B.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\c++\ProfCurse\HW1.1\AandB\Debug\AandB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AandB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\c++\ProfCurse\HW1.1\AandB\Debug\AandB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\c++\ProfCurse\HW1.1\AandB\Debug\AandB.lib" /MACHINE:X86 Debug\AandB.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\C---proff-course\AandB\Debug\AandB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AandB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++\C---proff-course\AandB\Debug\AandB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\C---proff-course\AandB\Debug\AandB.lib" /MACHINE:X86 Debug\AandB.exe.embed.manifest.res
          Debug\A.obj
          Debug\AandB.obj
          Debug\B.obj
@@ -23,12 +22,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         AandB.vcxproj -> D:\Documents\c++\ProfCurse\HW1.1\AandB\Debug\AandB.exe
+         AandB.vcxproj -> D:\C++\C---proff-course\AandB\Debug\AandB.exe
        FinalizeBuildStatus:
          Deleting file "Debug\AandB.unsuccessfulbuild".
          Touching "Debug\AandB.lastbuildstate".
-     1>Done Building Project "D:\Documents\c++\ProfCurse\HW1.1\AandB\AandB\AandB.vcxproj" (build target(s)).
+     1>Done Building Project "D:\C++\C---proff-course\AandB\AandB\AandB.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.45
+Time Elapsed 00:00:00.42

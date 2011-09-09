@@ -6,5 +6,5 @@ class A
 public:
 	A(int tmp);
 	
-	void PrintA();
+	void PrintA(char * Name = "A");
 };

@@ -1,9 +1,9 @@
 #include "stdafx.h"
 #include "A.h"
 
-void A::PrintA()
+void A::PrintA(char * Name)
 {
-	cout << "A(" << this << "): " << this->a << endl;
+	cout << Name << "(" << this << "): " << this->a << endl;
 }
 
 A::A(int tmp):a(tmp)

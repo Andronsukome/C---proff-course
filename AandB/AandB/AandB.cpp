@@ -14,6 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	a.PrintA();
 	b.PrintB();
 
+
 	return 0;
 }
 
